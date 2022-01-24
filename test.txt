@@ -1,1 +1,11 @@
-aqxsqx
+Git Hub Repository 관리법
+1. Git Hub 사이트 로그인 then New Repository 생성: Fork Fetch 작업 예정 시 가능한 Public. Readme 및 gitignore 체크 권장. License as required.
+2. Fork 접속 & Clone(Github Code 주소 복사헤 처리 & 폴더는 원본폴더가 Parent나 Sub가 되지 않도록 별도위치 지정).
+3. main 기준 New Branch 생성.
+4. Console 가동.
+  4-1. git init
+  4-2. git add .
+  4-3. git commit -m "[message or comment here]"
+  4-4. git push origin [branch name here]
+  4-5. exit
+* 작업 완료 후 Update한 Github 상태의 시현을 최신화하려는 경우 Fetch 처리(Fetch는 익스플로러 새로고침(F5) 기능이라 봐도 무방).
